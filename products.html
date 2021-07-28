@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="./assets/css/style-produtos.css">
+    <title>All Products | Ecommerce</title>
 </head>
 <body>
 
 
-    <div class="header">
+   
         <div class="container"> 
             <div class="navbar">
                 
@@ -20,8 +21,8 @@
 
                 <nav>
                     <ul id="menu-items">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="./products.html" >Products</a></li>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./products.html">Products</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Entrar</a></li>
@@ -33,48 +34,27 @@
 
             </div>
 
-            <div class="row">
-                <div class="col-2"> 
-                    <h1>Um novo tempo, é agora <br> busque a onda perfeita </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatum modi fugiat suscipit numquam quis consequatur, reprehenderit 
-                        <br>consectetur quod, magni placeat sed deleniti atque sapiente, omnis a quam molestiae magnam?</p>
-                        <a href="#" class="btn">Explorar &#8594;</a>
-                </div>
-                <div class="col-2">
-                    <img src="../../base_data/core_images/inteligencia-artificial.jpg" alt="">
-
-
-                </div>
-            </div>
 
         </div>
         
-    </div>
+    
 
 
-    <!-- Featured categories -->
-    <!-- <div class="categories"> -->
-        <div class="small-container">
-            <h2 class="title">Destaques</h2>
-            <div class="row">
-                <div class="col-3">
-                    <img src="../../base_data/core_images/smalls/chuttersnap-mf-o1E7omzk-unsplash.jpg" alt="">
-                </div>  
-
-                <div class="col-3">
-                    <img src="../../base_data/core_images/smalls/blockchain.jpg" alt="">
-                </div>  
-
-                <div class="col-3">
-                    <img src="../../base_data/core_images/smalls/fakurian-design-v7E77uuQLyY-unsplash.jpg" alt="">
-                </div>  
-            </div>
-        </div>
-    <!-- </div> -->
-
+   
     <!-- Feature Products -->
     <div class="small-container">
-        <h2 class="title">Products </h2>
+
+        <div class="row row__products">
+            <h2>All Products </h2>
+            <select name="" id="">
+                <option value="">Default Shorting</option>
+                <option value="">Short by price</option>
+                <option value="">Short by popularity</option>
+                <option value="">Short by rating</option>
+                <option value="">Short by sale</option>
+            </select>
+
+        </div>
 
         <div class="row">   
             <div class="col-4">
@@ -129,7 +109,58 @@
         </div>
 
 
-        <h2 class="title">ùltimas novidades </h2>
+        <div class="row">   
+            <div class="col-4">
+                <img src="../../base_data/core_images/smalls/fintech.jpg" alt="">
+                <h4>Blockchain Consultoria e features</h4>
+                <div class="rating">
+                    <span class="fa fa-star"></span> 
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star-half-o"></span>
+                </div>
+                <p>$39,98</p>
+            </div>
+
+            <div class="col-4">
+                <img src="../../base_data/core_images/smalls/fakurian-design-v7E77uuQLyY-unsplash.jpg" alt="">
+                <h4>Blockchain Consultoria e features</h4>
+                <div class="rating">
+                    <span class="fa fa-star"></span> 
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star-half-o"></span>
+                    <span class="fa fa-star-o"></span>
+                </div>
+                <p>$339,98</p>
+            </div>
+
+            <div class="col-4">
+                <img src="../../base_data/core_images/smalls/executium-4yPFKV9y5EI-unsplash.jpg" alt="">
+                <h4>Blockchain Consultoria e features</h4>
+                <div class="rating">
+                    <span class="fa fa-star"></span> 
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star-o"></span>
+                </div>
+                <p>$13,98</p>
+            </div>
+
+            <div class="col-4">
+                <img src="../../base_data/core_images/smalls/fintech.jpg" alt="">
+                <h4>Blockchain Consultoria e features</h4>
+                <div class="rating">
+                    <span class="fa fa-star"></span> 
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star-o"></span>
+                    <span class="fa fa-star-half-o"></span>
+                </div>
+                <p>$39,98</p>
+            </div>
+
+        </div>
+
         <div class="row">   
             <div class="col-4">
                 <img src="../../base_data/core_images/smalls/fintech.jpg" alt="">
@@ -183,170 +214,28 @@
         </div>
 
 
-
-
-
-
-        <div class="row">   
-            <div class="col-4">
-                <img src="../../base_data/core_images/smalls/fintech.jpg" alt="">
-                <h4>Blockchain Consultoria e features</h4>
-                <div class="rating">
-                    <span class="fa fa-star"></span> 
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star-half-o"></span>
-                </div>
-                <p>$39,98</p>
-            </div>
-
-            <div class="col-4">
-                <img src="../../base_data/core_images/smalls/fakurian-design-v7E77uuQLyY-unsplash.jpg" alt="">
-                <h4>Blockchain Consultoria e features</h4>
-                <div class="rating">
-                    <span class="fa fa-star"></span> 
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star-half-o"></span>
-                    <span class="fa fa-star-o"></span>
-                </div>
-                <p>$339,98</p>
-            </div>
-
-            <div class="col-4">
-                <img src="../../base_data/core_images/smalls/executium-4yPFKV9y5EI-unsplash.jpg" alt="">
-                <h4>Blockchain Consultoria e features</h4>
-                <div class="rating">
-                    <span class="fa fa-star"></span> 
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star-o"></span>
-                </div>
-                <p>$13,98</p>
-            </div>
-
-            <div class="col-4">
-                <img src="../../base_data/core_images/smalls/fintech.jpg" alt="">
-                <h4>Blockchain Consultoria e features</h4>
-                <div class="rating">
-                    <span class="fa fa-star"></span> 
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star-o"></span>
-                    <span class="fa fa-star-half-o"></span>
-                </div>
-                <p>$39,98</p>
-            </div>
-
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>&#8594;</span>
         </div>
+
+
+
+
+
+
+
+     
 
     </div>    
 
-    <!-- Com Maiores descontos -->
-    <div class="offer">
-        <div class="small-container">
-            <div class="row">
-                
-                <div class="col-2">
-                    <img src="../../base_data/core_images/seguranca-tecnologica.jpg" alt="" class="offer-img">
-                </div>
-
-                <div class="col-2">
-                    <p>compre produtos exclusivos na Costura Criativa</p>
-                    <h1>Blusa sainda Man</h1>
-                    <small>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet laudantium in, eos numquam itaque velit ducimus. Vel quam, dolores repellat eveniet nam laudantium rerum aut natus, quae suscipit alias aperiam.
-                    </small>
-                    <a href="" class="btn">Quero &#8594;</a>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- testimonial -->
-    <div class="testimonial">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <span class="fa fa-quote-left"></span>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates dolorum, et ut obcaecati quis aliquam deserunt nesciunt, atque, asperiores sapiente corporis odit odio modi! Dolor dicta qui vitae delectus possimus!</p>
-                
-                    <div class="rating">
-                        <span class="fa fa-star"></span> 
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star-o"></span>
-                        <span class="fa fa-star-half-o"></span>
-                    </div>
-
-                    <img src="../../base_data/core_images/peoples/Jessica.jpg" alt="">
-                    <h3>Alba Lira</h3>
-                </div>
-
-                <div class="col-3">
-                    <span class="fa fa-quote-left"></span>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates dolorum, et ut obcaecati quis aliquam deserunt nesciunt, atque, asperiores sapiente corporis odit odio modi! Dolor dicta qui vitae delectus possimus!</p>
-                
-                    <div class="rating">
-                        <span class="fa fa-star"></span> 
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star-o"></span>
-                        <span class="fa fa-star-half-o"></span>
-                    </div>
-
-                    <img src="../../base_data/core_images/peoples/Jorge-Sebastiao.jpg" alt="">
-                    <h3>Alba Lira</h3>
-
-                </div>
-
-                <div class="col-3">
-                    <span class="fa fa-quote-left"></span>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates dolorum, et ut obcaecati quis aliquam deserunt nesciunt, atque, asperiores sapiente corporis odit odio modi! Dolor dicta qui vitae delectus possimus!</p>
-                
-                    <div class="rating">
-                        <span class="fa fa-star"></span> 
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star-o"></span>
-                        <span class="fa fa-star-half-o"></span>
-                    </div>
-
-                    <img src="../../base_data/core_images/peoples/Lisa.jpg" alt="">
-                    <h3>Alba Lira</h3>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- brands -->
-    <div class="brands">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="../../base_data/core_images/logos/Ankr-Network-logo-1.jpg" alt="">
-                </div>
-
-                <div class="col-5">
-                    <img src="../../base_data/core_images/logos/cardano1.png" alt="">
-                </div>
-
-                <div class="col-5">
-                    <img src="../../base_data/core_images/logos/images.jpg" alt="">
-                </div>
-
-                <div class="col-5">
-                    <img src="../../base_data/core_images/logos/Ankr-Network-logo-1.jpg" alt="">
-                </div>
-
-                <div class="col-5">
-                    <img src="../../base_data/core_images/logos/2280.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
+    
+    
+   
 
     <!-- footer -->
     <div class="footer">
